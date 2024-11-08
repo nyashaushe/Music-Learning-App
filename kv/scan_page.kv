@@ -1,0 +1,13 @@
+<ScanPage>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Scan Sheet Music'
+            font_size: 24
+        Button:
+            text: 'Select Image'
+            on_press: root.select_image()
+        # Placeholder for displaying the processed image or text
+        Image:
+            id: scanned_image
+            source: 'pc'

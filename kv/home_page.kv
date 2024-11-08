@@ -1,0 +1,12 @@
+<HomePage>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Music Learning App'
+            font_size: 32
+        Button:
+            text: 'Scan Sheet Music'
+            on_press: root.manager.current = 'scan'
+        Button:
+            text: 'Play Music'
+            on_press: root.manager.current = 'play'

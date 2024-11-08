@@ -1,0 +1,89 @@
+Objective: Create a mobile/web application that allows users to learn music by playing and singing from uploaded sheet music.
+
+
+Features:
+Sheet Music Input:
+
+Scan Physical Sheet Music: Use Optical Music Recognition (OMR) to scan and process physical sheet music.
+
+Upload Digital Sheet Music: Allow users to upload digital sheet music in formats like PDF and images.
+
+Music Playback:
+
+Play the entire piece or specific parts (e.g., soprano, tenor, bass).
+Control playback speed and loop specific sections for practice.
+
+Singing Instruction:
+
+Highlight notes on the staff that fall within the appropriate vocal range (soprano, tenor, bass).
+Visually link highlighted notes on the sheet music to the corresponding sounds during playback.
+Provide real-time pitch detection to help users stay in tune.
+
+Timeline:
+Phase 1: Core Functionality (1-2 Months)
+
+Research and Choose OMR Libraries:
+
+Evaluate libraries like Tesseract, OpenCV, Audiveris, and OpenSheetMusicDisplay for their capabilities and ease of integration.
+
+Develop Core Functionalities:
+
+Implement sheet music scanning and upload functionality.
+Integrate OMR to convert sheet music to a machine-readable format.
+Develop basic music playback capabilities using MIDI libraries.
+
+User Interface Design:
+
+Design a user-friendly interface for scanning and uploading sheet music.
+Include controls for selecting instruments/voices, playback, and navigation.
+
+Phase 2: Advanced Features (2-3 Months)
+
+Staff Separation:
+
+Develop algorithms to separate musical staves for different voices and instruments.
+
+Voice Selection:
+Implement functionality to allow users to choose which staff (instrument/voice) to play.
+Enable individual and combined playback of selected voices/instruments.
+Singing Instruction:
+
+Integrate vocal range information for different voice parts (soprano, tenor, bass).
+Highlight notes on the staff that fall within the chosen vocal range.
+Synchronize visual highlighting with corresponding notes during playback.
+Implement real-time pitch detection and feedback to assist users in staying in tune.
+
+Phase 3: Testing and Refinement (1 Month)
+
+Beta Testing:
+
+Release the app to a small group of users for feedback and usability testing.
+
+Refine Functionalities:
+
+Based on user feedback, improve core functionalities, address bugs, and enhance user experience.
+Optimize performance and ensure the app runs smoothly on various devices.
+
+Resources:
+Development Tools:
+
+Mobile app development platforms such as Android Studio and Xcode.
+Backend services for storage and processing, if needed (e.g., Firebase, AWS).
+
+Learning Resources:
+
+Online tutorials and documentation for chosen OMR libraries and mobile development platforms.
+Resources on music theory and OMR techniques.
+
+Potential Collaborators:
+
+Connect with developers, musicians, and music educators for technical expertise and music theory knowledge.
+Engage with user communities to gather feedback and refine the app.
+
+
+Success Criteria:
+
+Functional OMR and music playback features.
+Ability to select and play specific voices/instruments.
+User-friendly interface for learning to sing from sheet music.
+Positive feedback from beta testers, indicating ease of use and effectiveness in learning music.

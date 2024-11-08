@@ -1,0 +1,7 @@
+kivy
+kivymd
+opencv-python
+pytesseract
+Pillow
+numpy
+
